@@ -153,8 +153,8 @@ public class SpaceFX extends Application {
     private final        AudioClip                enemyBossShieldHitSound    = new AudioClip(getClass().getResource("enemyBossShieldHit.wav").toExternalForm());
     private final        AudioClip                deflectorShieldSound       = new AudioClip(getClass().getResource("deflectorshieldSound.wav").toExternalForm());
     private final        AudioClip                powerUpSound               = new AudioClip(getClass().getResource("powerUp.wav").toExternalForm());
-    private final        Media                    gameSoundTheme             = new Media(getClass().getResource("RaceToMars.mp3").toExternalForm());
-    private final        Media                    soundTheme                 = new Media(getClass().getResource("CityStomper.mp3").toExternalForm());
+    private final        Media                    gameSoundTheme             = new Media(getClass().getResource("RaceToMars.wav").toExternalForm());// RaceToMars.mp3
+    private final        Media                    soundTheme                 = new Media(getClass().getResource("CityStomper.wav").toExternalForm());// CityStomper.mp3
     private final        MediaPlayer              gameMediaPlayer            = new MediaPlayer(gameSoundTheme);
     private final        MediaPlayer              mediaPlayer                = new MediaPlayer(soundTheme);
     private final        double                   deflectorShieldRadius      = deflectorShieldImg.getRequestedWidth() * 0.5;
